@@ -28,7 +28,7 @@ header {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 9999;
+
 }
 
 header h1 {
@@ -63,13 +63,21 @@ header nav ul li a {
     text-shadow: 0 0 10px rgba(0, 0, 0, .75);
 }
 
+.work-section {
+    display: flex;
+    background-image: url(/assets/images/bryson.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
 .section-title {
     font-size: 48px;
     color: var(--primary-color);
     text-align: left;
     padding-right: 20px;
     border-right: 3px solid var(--primary-color);
-    margin: auto 35px auto 0;
+    margin: auto auto auto 0;
 }
 
 .bio {
@@ -80,11 +88,31 @@ header nav ul li a {
     background-position: 80%;
 }
 
-.projects {
-    display: flex;
+.margin-top {
+    margin-top: 50px;
 }
 
-.projects img {
+.my-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 60px;
+    background-image: url(/assets/images/bryson.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.project {
+    flex: 0 0 20%;
+}
+
+.main-project {
+    flex: 0 0 80%;
+}
+
+.my-work img {
     align-items:flex-end;
     justify-content: space-between;
     width: 500px;
@@ -94,4 +122,30 @@ header nav ul li a {
 
 .contact {
     display: flex;
+    flex: 0 0 30%;
+    background-image: url(/assets/images/bryson.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+.contact nav {
+    margin: 7px 0;
+}
+
+.contact nav ul {
+    display: flex;
+    flex: 0 0 70%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+}
+
+.contact nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: rgba(0, 0, 0, .75);
+    color: var(--primary-color);
 }
