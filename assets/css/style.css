@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-image: url(/assets/images/bryson.jpeg);
+    background-image: url(./assets/images/bryson.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -65,7 +65,7 @@ header nav ul li a {
 
 .work-section {
     display: flex;
-    background-image: url(/assets/images/bryson.jpeg);
+    background-image: url(./assets/images/bryson.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -83,7 +83,7 @@ header nav ul li a {
 
 .bio {
     display: flex;
-    background-image: url(/assets/images/bryson.jpeg);
+    background-image: url(./assets/images/bryson.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -101,7 +101,7 @@ header nav ul li a {
     column-gap: 20px;
     align-items:center;
     margin-bottom: 60px;
-    background-image: url(/assets/images/bryson.jpeg);
+    background-image: url(./assets/images/bryson.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
@@ -128,7 +128,7 @@ header nav ul li a {
 .contact {
     display: flex;
     flex: 0 0 30%;
-    background-image: url(/assets/images/bryson.jpeg);
+    background-image: url(./assets/images/bryson.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-position: 80%;
