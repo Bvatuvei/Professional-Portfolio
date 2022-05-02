@@ -4,8 +4,8 @@
 
 ## [Installation]In order to install my program: Step1-create a new directory on local computer. Step2-Go to my GitHub profile @Bvatuvei. Step3-Go to my repositories and select "Professional-Portfolio". Step4-Click on code and then copy ssh or https. Step5- Open terminal and type "git clone <"your previously copied ssh/https">."
 
-## [link][code-link]https://github.com/Bvatuvei/Professional-Portfolio, [website-link]https://bvatuvei.github.io/Professional-Portfolio/
+## [code-link]https://github.com/Bvatuvei/Professional-Portfolio, [website-link]https://bvatuvei.github.io/Professional-Portfolio/
 
-## [Screenshot of the page] )
+## [Screenshot of the page]
 ![top half of page](./assets/images/top-half.jpg)
 ![bottom half of page](./assets/images/bottom-half.jpg)
