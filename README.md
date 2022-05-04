@@ -7,5 +7,5 @@
 ## [code-link]https://github.com/Bvatuvei/Professional-Portfolio, [website-link]https://bvatuvei.github.io/Professional-Portfolio/
 
 ## [Screenshot of the page]
-![top half of page](./assets/images/top-half.jpg)
-![bottom half of page](./assets/images/bottom-half.jpg)
+![page](./assets/images/page.png)
+
