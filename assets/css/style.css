@@ -16,10 +16,8 @@ body {
 }
 
 header {
-    padding: 20px 35px;
     background-color: #87ceeb;
     display: flex;
-    justify-content: space-evenly;
 }
 
 header h1 {
@@ -32,7 +30,7 @@ header h1 {
 
 header a {
     text-decoration: none;
-    color: var(--tertiary-color);
+    color: var(--tertiary-color); 
 }
 
 header nav {
@@ -42,20 +40,30 @@ header nav {
 header nav ul {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #87ceeb;
 }
 
 header nav ul li a {
-    padding: 25px 10px 15px 10px;
     font-weight: lighter;
-    align-items: baseline;
-    margin-top: 15px;
+    align-items: center;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, .75);
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    justify-content: space-between;
 }
 
+li a:hover {
+    background-color: #111;
+  }
+  
 .work-section {
     display: flex;
     background-image: url(./assets/images/bryson.jpeg);
