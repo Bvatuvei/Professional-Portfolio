@@ -15,49 +15,9 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
 }
 
-header {
-    background-color: #87ceeb;
-    display: flex;
-}
-
-header h1 {
-    font-weight: bolder;
-    font-size: 45px;
-    color:var(--tertiary-color);
-    margin: 0;
-    text-shadow: rgba(0, 0, 0, .75);
-}
-
-header a {
-    text-decoration: none;
-    color: var(--tertiary-color); 
-}
-
-header nav {
-    margin: 7px 0;
-}
-
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #87ceeb;
-}
-
-header nav ul li a {
-    font-weight: lighter;
-    align-items: center;
-    font-size: 1.55vw;
-    text-shadow: 0 0 10px rgba(0, 0, 0, .75);
-    display: flex;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    justify-content: space-between;
+.my-image {
+    width: 50px;
+    height: 50px;
 }
 
 li a:hover {
